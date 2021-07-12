@@ -1,12 +1,10 @@
-Original App Design Project - README Template
+Final App Design Project - README Template
 ===
-## Three App Ideas
-1. An app that ranks food according to location
-2. An app that keeps track of the rewards/memberships of stores
-3. An app that's similar to doordash but it provides services.
+# Final App Idea
+1. An app that allows students to find opportunities based on their year, field or location. For example, a student could say they are a junior in high school interested in the field of computer science and location could be US. So then it could list all of the internships, programs, camps that are offered. And if you want a more specific location then it could find more opportunities in your local area. 
 
 
-# APP_NAME_HERE (STILL NEED TO CHOOSE)
+# FindOpp (STILL Thinking)
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -15,17 +13,18 @@ Original App Design Project - README Template
 2. [Schema](#Schema)
 
 ## Overview
-### Description for App Idea 1
-This would be an app that allows the user to make an account and search a food that they want to eat tonight and it would show the top rankings of the food in your area(it would display from best to worst based on ranking). You can also expand the area you are looking in, whether that is your town or state. It could give you a ranking of that food place, give you a chance to give a review and connect to google maps so that you can have directions on how to get there.  
+### Description 
+For example, a student could say they are a junior in high school interested in the field of computer science and location could be US. So then it could list all of the internships, programs, camps that are offered. And if you want a more specific location then it could, find more opportunities in your local area. If you like an opportunitiy, then you could click it to get more information(specific location, money...). Maybe you could write a review on the program(extra).   
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:** Food
-- **Mobile:** Mobile is essential so that users can easily find the best food options based on ranking and reviews and so they can also find directions using google maps. 
-- **Story:** Allows users to find the best ranking of food based on a specific location and gives them access to reviews from others too
-- **Market:** Anyone who wants good food! Maybe tourists or people who are just generally new in the area.
-- **Habit:** People would be using this app constantly when in new places so they can find the best types of foods in the area.
-- **Scope:** V1 would be the sign up or login page. V2 would have a search bar and maybe display the user's past favorites. V3 would be after the user searches for a food like pizza. Then it would display a list of the best pizza places in the area. V4 would be when the user clicks on a food place that they like and this would allow them to look at this places's menu or link to their website. phone number and google maps so they can get directions. They would also get reviews from other people on this page and ranking and give you a chance to give a review. Other V could be the screen if they want directions to the food place or a screen to read blogs. 
+- **Category:** Opportunities
+- **Mobile:** Mobile is essential so that users can easily find the opportunities that they are interested in. 
+- **Story:** Allows users to find the extracurricular opportunities in the area they are looking for depending on age, field ad location
+- **Market:** High schoolers who are finding opportunities in their field of interest.
+- **Habit:** People would be using this app constantly when trying to find opportunities for themselves whether that's in the summer or year round.
+- **Scope:** V1 would be the sign up or login page. V2 would be the page you get taken to depending on if you click sign up or login. V3 could be a get started page where you have to enter your year in high school, age, field of interest, location your looking for opportunities in, and when you're looking for these opportunities(summer, all year). V4 could show you all of the opportunities that are available to you and there could be a star feature so if you like an opportunity it will be added to your favorities in that folder. V5 couldd maybe be like folders that contain all of the fields and then when you click on the folder, inside is all of the favorities that you liked. So if you have another area that your interested in, then it would make another folder. V6 is if you like a folder than you can click on an opportunity and get more information.   
+
 
 ## Product Spec
 
@@ -35,16 +34,16 @@ This would be an app that allows the user to make an account and search a food t
 
 * User can login
 * User can make a new account
-* User cna search for foods
-* User can see a list of best ranked foods in the area
-* User can click on a food place and see more information such as phone number or menu
+* User can get started and type their information 
+* User can see a list of opportunities for the info they specified
+* User can star opportunities they liked and it will be added to that folder
+* User can click on an opportunity and see more info
 
 
 **Optional Nice-to-have Stories**
 
-* Having access to reviews and being able to write reviews
-* An extension that would give access to google maps and get directions
-* Can like restaurants and have a favorites section
+* User can write reviews for opportunities
+
 
 ### 2. Screen Archetypes
 
@@ -53,14 +52,16 @@ This would be an app that allows the user to make an account and search a food t
    * if user clicks sign up then it would take to a second screen where it would ask for information
    
 * Second screen
-   * Search bar where they can search food and choose location
-
+   * Search bar where they can enter information and search opportunities
 
 * Third Screen
-    * Shows a list of best food places according to th food searched
+    * Shows a list of opportunities
 
 * Fourth Screen
-    * After choosing a food place, this takes the user to another screen where they can see more information about that place like the menu and phone number 
+    * After choosing an opportunity, this takes the user to another screen where they can see more information about that place  
+
+* Fifth Screen
+    * if they star it, then it gets added to a folder
 
 ### 3. Navigation
 
@@ -73,9 +74,7 @@ This would be an app that allows the user to make an account and search a food t
 **Flow Navigation** (Screen to Screen)
 
 * Sign up/login page
-   * After you click on this, it takes you to the search bar
-* Search bar page
-   * After you search for food, it takes you to the list of results
+   
 * 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
@@ -88,7 +87,7 @@ This would be an app that allows the user to make an account and search a food t
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+* opportunity- this will be each opportunity
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
